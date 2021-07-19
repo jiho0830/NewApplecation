@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newapplecation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewApplecation">
+        <activity android:name=".Sublogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBKw5awSlLO537wZvoQx3Tunw_lZBnKxow" />
+
+        <activity android:name=".Subcreateaccount">
+
+        </activity>
+        <activity android:name=".Subfindaccount">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Subexplain">
+
+        </activity>
+        <activity android:name=".Subplusfood">
+
+        </activity>
+        <activity android:name=".Subplusfood2">
+
+        </activity>
+        <activity android:name=".Subuploadfood">
+
+        </activity>
+        <activity android:name=".Subuploadfood3">
+
+        </activity>
+        <activity android:name=".Subexplain1">
+
+        </activity>
+        <activity android:name=".Subrecommendfood">
+
+        </activity>
+        <activity android:name=".Subcheckreview">
+
+        </activity>
+        <activity android:name=".Submodifyaccount">
+
+        </activity>
+        <activity android:name=".Subcheckreviewbytitle">
+
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

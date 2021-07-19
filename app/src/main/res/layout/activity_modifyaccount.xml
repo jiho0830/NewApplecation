@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="계정 수정하기"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/modifycount_uplodimage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/iconfinder_profile" />
+
+    <TextView
+        android:id="@+id/modifycount_addimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_toutch"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="(프로필 사진 추가하기)"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/modifycount_id"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:background="#D7D7D7"
+            android:hint="이름"
+            android:textSize="20dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/modifycount_email"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#D7D7D7"
+            android:hint="이메일"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"/>
+
+
+        <EditText
+            android:id="@+id/modifycount_password"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#D7D7D7"
+            android:hint="비밀번호"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/modifycount_account"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_blue"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/iconfinder_profile" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="계정수정하기"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="로그아웃"
+        android:layout_marginTop="10dp"
+        android:id="@+id/modify_logout"
+        />
+</LinearLayout>
+
+
+
+
+

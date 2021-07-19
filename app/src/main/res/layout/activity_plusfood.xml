@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="식당추가하기"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/plusfood_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/iconfinder_uploadphoto" />
+
+    <EditText
+        android:id="@+id/upload_title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#D7D7D7"
+        android:hint="식당이름" />
+
+    <EditText
+        android:id="@+id/upload_phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#D7D7D7"
+        android:hint="전화번호(번호만 입력)"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/plusfood_addputton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:text="추가하기" />
+
+</LinearLayout>
+
+
+
+

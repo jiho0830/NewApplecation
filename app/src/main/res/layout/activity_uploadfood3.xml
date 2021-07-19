@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="식당리뷰"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="25sp"
+            android:id="@+id/upload_title123"/>
+
+
+        <ImageView
+            android:id="@+id/upload_image"
+            android:layout_width="271dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/iconfinder_uploadphoto" />
+
+        <TextView
+            android:id="@+id/upload_title3"
+            android:layout_width="293dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#D7D7D7"
+            android:hint="식당이름" />
+
+
+        <TextView
+            android:id="@+id/upload_review3"
+            android:layout_width="293dp"
+            android:layout_height="144dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="#D7D7D7"
+            android:hint="리뷰작성 (100자까지)" />
+
+
+
+        <RelativeLayout
+            android:layout_width="321dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp">
+
+            <RatingBar
+                android:id="@+id/upload_rating3"
+                android:isIndicator="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upload_rating3"
+                android:layout_centerHorizontal="true"
+                android:text="점"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

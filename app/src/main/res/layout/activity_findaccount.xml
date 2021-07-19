@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="계정 찾기"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="이메일 찾기"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/findid1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D7D7D7"
+        android:hint="이름" />
+
+
+    <RelativeLayout
+        android:id="@+id/TextView_findaccount"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_blue"
+        android:clickable="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="이메일 찾기"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="20dp"
+        android:text="비밀번호 찾기"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/findid2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D7D7D7"
+        android:hint="이름" />
+
+
+    <EditText
+        android:id="@+id/findemail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="#D7D7D7"
+        android:hint="이메일"
+        android:inputType="textEmailAddress" />
+
+
+    <RelativeLayout
+        android:id="@+id/TextView_findpassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_blue"
+        android:clickable="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="비밀번호 찾기"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+

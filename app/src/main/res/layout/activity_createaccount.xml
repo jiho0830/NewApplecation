@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="계정 생성하기"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/createcount_uplodimage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/iconfinder_profile" />
+
+    <TextView
+        android:id="@+id/createcount_addimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_toutch"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="(프로필 사진 추가하기)"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/createaccount_id"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="16dp"
+        android:background="#D7D7D7"
+        android:hint="이름" />
+
+
+    <EditText
+        android:id="@+id/createaccount_email"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="#D7D7D7"
+        android:hint="이메일"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/createaccount_password"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="#D7D7D7"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+
+    <RelativeLayout
+        android:id="@+id/createcount_account"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_blue"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/iconfinder_profile" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="계정생성하기"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/CheckBox_check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_toLeftOf="@+id/TextView_explain"
+            android:text="동의합니다" />
+
+        <TextView
+            android:id="@+id/TextView_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_toutch"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="(약관 자세히보기)"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/TextView_explain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView_explain"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_toutch"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="(약관 자세히보기)"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/CheckBox_check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CheckBox_check1"
+            android:layout_toLeftOf="@+id/TextView_explain1"
+            android:text="동의합니다" />
+
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+
+
